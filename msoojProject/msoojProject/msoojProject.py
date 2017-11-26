@@ -159,7 +159,7 @@ class colorTracker():
         continueCap = True              # Boolean to keep capturing if this is true
         paintNow = False                # This is used to trigger the painting command
         paintStr = "OFF"                # This will be used to show if there drawing is active or not
-        programStatus = "OFF"
+        programStatus = "PRESS ENTER TO START"
         file = ""
         drawingRect = False
         textReady = False
@@ -275,6 +275,7 @@ class colorTracker():
                 cv2.putText(maskClose, "Press 'o' to insert a cirlce, 'o' to apply", (50, 300), self.font, 0.80, (255,255,255), 1)
                 cv2.putText(maskClose, "Press 't' to insert text, 't' to apply", (50, 350), self.font, 0.80, (255,255,255), 1)
                 cv2.putText(maskClose, "Press 'q' to quit", (50, 400), self.font, 0.80, (255,255,255), 1)
+                cv2.putText(maskClose, "Press 's' to save the camera and canvas", (50, 450), self.font, 0.80, (255,255,255), 1)
 
             # Marker Draw
             if ~paintNow:
