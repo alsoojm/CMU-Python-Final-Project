@@ -2,7 +2,7 @@
 Read Project Description
 
 # Libraries Used:
-openCV2 - Version 3.3.1 
+openCV2 - Version 3.3.1  
 Numpy 
 Tkinter 
 tkfileDialog 
