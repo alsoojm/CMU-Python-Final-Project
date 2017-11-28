@@ -8,7 +8,11 @@ Tkinter
 tkfileDialog  
 os  
 
-# Download OpenCV library from here
+# Setting up OpenCV
+Follow the instructions here:  
+https://docs.opencv.org/master/d5/de5/tutorial_py_setup_in_windows.html  
+
+Download from Here:  
 https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.3.1/
 
 Run the file 'msoojProject.py'
